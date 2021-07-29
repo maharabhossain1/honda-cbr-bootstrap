@@ -1,0 +1,67 @@
+/* font-family import from google  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-----------
+ header :start 
+ ------------- */
+header{
+    background: #264653;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* --------------
+font for p tag
+---------------*/
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-color{
+    background-color: #E76F51;
+    ;
+}
+
+
+
+/*-------------------
+ Bikes section start
+ -------------------*/
+#best-bikes,
+.client{
+    color: #E76F51;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
+/*--------------
+ happly client 
+ --------------*/
+.star-icons{
+    color: #E76F51;
+}
+
+
+/* -------------------------------
+bonus section for "not made ..yet"
+----------------------------------*/
+.bonus{
+    background: rgb(209,147,70);
+    background: linear-gradient(304deg, rgba(209,147,70,1) 0%, rgba(255,249,255,1) 67%, rgba(243,243,255,1) 100%);
+}
+.classic-btn{
+    background: rgb(144,101,47);
+    background: linear-gradient(232deg, rgba(144,101,47,1) 0%, rgba(205,156,124,1) 59%, rgba(70,58,40,1) 100%); 
+}
